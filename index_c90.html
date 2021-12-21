@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> The Math Multiplication Quiz!!!! </title>
+
+<link rel="stylesheet" href="style_c90.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+
+</head>
+<body class="body"> 
+
+<h3 id="p1_name"></h3>
+<span id="p1_score"></span>
+
+<br>
+
+<h3 id="p2_name"></h3>
+<span id="p2_score"></span>
+
+<div class="container">
+<center>
+
+<p class="heading"> The Math Multiplication Quiz!! </p>
+<br>
+<h3>Scroll down below to set the question and click on submit.Then the other player will give the answer<br>(Do hide while entering the question) </h3>
+<br>
+
+<p id="q_turn_phrase">Question Turn:- 
+<p id="q_turn"></p>
+</p>
+
+<br>
+
+<p id="a_turn_phrase">Answer Turn:- 
+<p id="a_turn"> </p>
+</p>
+
+<br>
+
+<h3 id="result"></h3>
+
+<br>
+
+<div id="output">
+
+<br>
+<h3>Question:-</h3>
+
+
+<h3 id="question"></h3>
+
+<br>
+
+<p id="ans_phrase">Answer:-</p>
+<input id="ans" type="number" placeholder="Enter Your Answer Here">
+
+<br>
+<br>
+
+<button type="button" class="btn btn-info" id="ans_submit" onclick="check_product()">Check</button>
+
+</div>
+
+<br>
+<hr>
+
+<h2>
+Set The Question Below
+</h2>
+
+<br>
+
+<h3>Enter The First Number</h3>
+<input type="number" id="q_n1" placeholder="Enter Here">
+
+<br>
+<br>
+
+<h2>Enter The Second Number</h2>
+<input type="number" id="q_n2" placeholder="Enter Here">
+
+<br>
+<br>
+<br>
+
+
+<button type="submit" class="btn btn-success" id="btn_send_q" onclick="send()">
+Submit
+</button>
+
+</center>
+</div>
+
+<script src="main_c90.js"></script>
+
+</body>
+</html>

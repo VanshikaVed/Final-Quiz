@@ -1,0 +1,70 @@
+.body{
+    background-color: greenyellow;
+    padding-top: 30px;
+}
+
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 47px;
+    background-color:lightgreen;
+    width: 500px;
+}
+
+#q_turn_phrase,
+#a_turn_phrase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#output{
+    background-color: lightpink;
+    display: none;
+    width: 550px;
+    
+}
+
+#ans{
+    width: 210px;
+    height: 32px;
+}
+
+#ans_phrase{
+    font-size: 18px;
+}
+
+#ans_submit{
+    margin-bottom: 15px;
+}
+
+#question{
+    margin-top: 20px;
+}
+
+#btn_send_q{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    margin-bottom: 55px;
+}
+
+#p1_name,
+#p2_name{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 34px;
+}
+
+#p1_score,
+#p2_score{
+    font-size: 22px;
+    margin-top: 34px;
+}
+
+#q_turn_phrase,
+#a_turn_phrase,
+#q_turn,
+#a_turn{
+font-size: 25px;
+display: inline;
+}

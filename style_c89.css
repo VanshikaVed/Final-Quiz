@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to bottom right,#94089c,#e156e8,#f985ff, #efaaf2,#dfc8e0);
+}
+
+.heading{
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#p1_login{
+    text-align: left;
+    margin-left: 20px;
+    background-color: aqua;
+    width: 40%;
+
+}
+
+#p2_login{
+    text-align: right;
+    margin-left: 830px;
+    background-color: aqua;
+    width: 40%;
+
+}
+
+.login_t{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user_name_p{
+    font-size: 23px;
+    font-family: serif;
+}
+
+#p1_input,
+#p2_input{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 14px;
+}
+
+#div1,
+#div2{
+    text-align: center;
+}
+
+#btn_login{
+    height: 100px;
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 55px;
+}
